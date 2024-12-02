@@ -1,0 +1,24 @@
+<!-- templates/home.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+    <div data-gb-custom-block data-tag="if">
+
+        <h1>Welcome, {{ user_info.name }}!</h1>
+        <img src="{{ user_info.picture.data.url }}" alt="Profile Picture">
+        <p>Email: {{ user_info.email }}</p>
+
+
+<div data-gb-custom-block data-tag="else"></div>
+
+        <h1>Welcome to Our Site</h1>
+        <a href="
+
+<div data-gb-custom-block data-tag="url" data-0='facebook_login'></div>">Login with Facebook</a>
+    </div>
+</body>
+</html>
